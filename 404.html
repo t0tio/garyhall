@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+<title>Page Not Found | Gary Hall Garden Services</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="loader" id="loader"><div class="spinner"></div><div class="text">Gary Hall Gardens</div></div>
+
+<header class="navbar" id="navbar" role="navigation">
+    <div class="container">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.jpg" alt="Gary Hall Garden Services Logo" />
+            <span class="logo-text">GARY <span class="brand-span">HALL</span></span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="nav-links" id="navLinks" role="menu">
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="videos.html">Videos</a>
+            <a href="about.html">About</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html" class="nav-cta">Free Quote</a>
+        </nav>
+    </div>
+</header>
+
+<section class="center-page">
+    <div class="center-card">
+        <i class="fas fa-seedling big-icon"></i>
+        <h1>Oops — <span class="highlight">Page Not Found</span></h1>
+        <p>Looks like this page has been trimmed away. The link may be broken or the page may have moved. Let's get you back on track.</p>
+        <div class="center-actions">
+            <a href="index.html" class="btn btn-primary">Back to Home <i class="fas fa-arrow-right"></i></a>
+            <a href="contact.html" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-bottom" style="border-top:none;padding-top:0;justify-content:center;">
+            <span>© 2026 Gary Hall Garden Services. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<!-- FLOATING BUTTONS & CHAT WIDGET -->
+<div class="floating-buttons">
+    <div class="chat-popup" id="chatPopup">
+        <div class="chat-popup-header">
+            <h4>Gary Hall Garden Services</h4>
+            <button id="chatClose" aria-label="Close chat"><i class="fas fa-chevron-down"></i></button>
+        </div>
+        <div class="chat-popup-body">
+            <p>Let me know if you have any questions!</p>
+            <div class="chat-popup-actions">
+                <a href="https://wa.me/447951434795" target="_blank" class="chat-btn-primary">I have a question</a>
+                <button class="chat-btn-secondary" id="chatDismiss">No, thanks</button>
+            </div>
+        </div>
+    </div>
+    <button class="floating-btn chat" id="chatToggle" aria-label="Open chat">
+        <i class="fas fa-comment-dots"></i>
+        <span class="chat-badge" id="chatBadge">1</span>
+    </button>
+    <a href="tel:+447951434795" class="floating-btn call" aria-label="Call Gary Hall"><i class="fas fa-phone"></i></a>
+    <a href="https://wa.me/447951434795" target="_blank" class="floating-btn whatsapp" aria-label="WhatsApp Gary Hall"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
